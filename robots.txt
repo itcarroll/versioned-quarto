@@ -1,1 +1,1 @@
-Sitemap: https://itcarroll.github.io/versioned-quarto/sitemap.xml
+Sitemap: https://itcarroll.github.io/versioned-quarto/en/latest/sitemap.xml
