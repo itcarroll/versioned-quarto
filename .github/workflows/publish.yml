@@ -15,10 +15,14 @@ jobs:
         uses: quarto-dev/quarto-actions/setup@v2
       - name: Render Stable
         uses: quarto-dev/quarto-actions/render@v2
+      - name: Show Files
+        run: find ./ -type f
       - name: Render Latest
         uses: quarto-dev/quarto-actions/render@v2
         env:
           QUARTO_PROFILE: latest
+      - name: Show Files
+        run: find ./ -type f
       - name: Publish
         uses: quarto-dev/quarto-actions/publish@v2
         with:
