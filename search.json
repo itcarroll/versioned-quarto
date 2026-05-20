@@ -18,5 +18,15 @@
     "crumbs": [
       "Home"
     ]
+  },
+  {
+    "objectID": "guide.html",
+    "href": "guide.html",
+    "title": "Guide",
+    "section": "",
+    "text": "Add a _quarto-latest.yml",
+    "crumbs": [
+      "Guide"
+    ]
   }
 ]
