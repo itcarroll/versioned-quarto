@@ -3,9 +3,11 @@ title: "Guide"
 draft: true
 ---
 
-1. Add a `_quarto-latest.yml`
-1. Include in `.github/workflows/publish.yml` "Render and Publish" step
+1. Add `_quarto-latest.yml`
+1. Include in `.github/workflows/publish.yml` "Render" steps with and without:
     ```
     env:
       QUARTO_PROFILE: latest
     ```
+1. Do not use quarto-actions/publish; push worktree at `_site` to gh-pages instead
+1. Manually add an "index.html" redirect to the root of the gh-pages branch
