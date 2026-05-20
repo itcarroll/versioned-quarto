@@ -4,10 +4,7 @@ draft: true
 ---
 
 1. Add `_quarto-latest.yml`
-1. Include in `.github/workflows/publish.yml` "Render" steps with and without:
-    ```
-    env:
-      QUARTO_PROFILE: latest
-    ```
+1. Add `navbar.right` in `_quarto.yml` to get to swith (or put it somewhere else!)
+1. Include in `.github/workflows/publish.yml` two "Render" steps, with and without the `QUARTO_PROFILE` environment variable set
 1. Do not use quarto-actions/publish; push worktree at `_site` to gh-pages instead
 1. Manually add an "index.html" redirect to the root of the gh-pages branch
