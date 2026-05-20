@@ -4,6 +4,12 @@ project:
 website:
   title: "Versioned Quarto"
   site-url: https://itcarroll.github.io/versioned-quarto/en/stable
+  navbar:
+    right:
+      - href: https://itcarroll.github.io/versioned-quarto/
+        text: stable
+      - href: https://itcarroll.github.io/versioned-quarto/en/latest
+        text: latest
   sidebar:
     contents:
       - href: index.qmd
