@@ -15,6 +15,7 @@ jobs:
         uses: quarto-dev/quarto-actions/setup@v2
       - name: Prepare Worktree
         run: |
+          git fetch origin gh-pages
           git worktree add --track -B gh-pages _site origin/gh-pages
       - name: Render Stable
         uses: quarto-dev/quarto-actions/render@v2
