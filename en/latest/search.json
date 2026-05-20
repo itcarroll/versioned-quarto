@@ -6,6 +6,7 @@
     "section": "",
     "text": "About this site",
     "crumbs": [
+      "stable",
       "About"
     ]
   },
@@ -16,6 +17,7 @@
     "section": "",
     "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.",
     "crumbs": [
+      "stable",
       "Home"
     ]
   },
@@ -26,6 +28,7 @@
     "section": "",
     "text": "Add a _quarto-latest.yml\nInclude in .github/workflows/publish.yml “Render and Publish” step env:    QUARTO_PROFILE: latest",
     "crumbs": [
+      "stable",
       "Guide"
     ]
   }
