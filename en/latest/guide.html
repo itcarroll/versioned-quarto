@@ -173,8 +173,10 @@ ul.task-list li input[type="checkbox"] {
 
 
 <ol type="1">
-<li>Add a <code>_quarto-latest.yml</code></li>
-<li>Include in <code>.github/workflows/publish.yml</code> “Render and Publish” step <code>env:    QUARTO_PROFILE: latest</code></li>
+<li>Add <code>_quarto-latest.yml</code></li>
+<li>Include in <code>.github/workflows/publish.yml</code> “Render” steps with and without: <code>env:    QUARTO_PROFILE: latest</code></li>
+<li>Do not use quarto-actions/publish; push worktree at <code>_site</code> to gh-pages instead</li>
+<li>Manually add an “index.html” redirect to the root of the gh-pages branch</li>
 </ol>
 
 

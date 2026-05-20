@@ -26,7 +26,7 @@
     "href": "guide.html",
     "title": "Guide",
     "section": "",
-    "text": "Add a _quarto-latest.yml\nInclude in .github/workflows/publish.yml “Render and Publish” step env:    QUARTO_PROFILE: latest",
+    "text": "Add _quarto-latest.yml\nInclude in .github/workflows/publish.yml “Render” steps with and without: env:    QUARTO_PROFILE: latest\nDo not use quarto-actions/publish; push worktree at _site to gh-pages instead\nManually add an “index.html” redirect to the root of the gh-pages branch",
     "crumbs": [
       "stable",
       "Guide"
