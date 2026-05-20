@@ -121,12 +121,6 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">About</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./guide.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Guide</span></a>
-  </div>
-</li>
     </ul>
     </div>
 </nav>
@@ -236,7 +230,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/itcarroll\.github\.io\/versioned-quarto\/en\/latest");
+        var filterRegex = new RegExp("https:\/\/itcarroll\.github\.io\/versioned-quarto\/en\/stable");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

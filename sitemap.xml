@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://itcarroll.github.io/versioned-quarto/en/latest/about.html</loc>
-    <lastmod>2026-05-20T02:08:25.649Z</lastmod>
+    <loc>https://itcarroll.github.io/versioned-quarto/en/stable/about.html</loc>
+    <lastmod>2026-05-20T02:16:03.177Z</lastmod>
   </url>
   <url>
-    <loc>https://itcarroll.github.io/versioned-quarto/en/latest/index.html</loc>
-    <lastmod>2026-05-20T02:08:25.649Z</lastmod>
-  </url>
-  <url>
-    <loc>https://itcarroll.github.io/versioned-quarto/en/latest/guide.html</loc>
-    <lastmod>2026-05-20T02:08:25.649Z</lastmod>
+    <loc>https://itcarroll.github.io/versioned-quarto/en/stable/index.html</loc>
+    <lastmod>2026-05-20T02:16:03.177Z</lastmod>
   </url>
 </urlset>

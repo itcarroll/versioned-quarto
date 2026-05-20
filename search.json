@@ -18,15 +18,5 @@
     "crumbs": [
       "Home"
     ]
-  },
-  {
-    "objectID": "guide.html",
-    "href": "guide.html",
-    "title": "Guide",
-    "section": "",
-    "text": "Add a _quarto-latest.yml\nInclude in .github/workflows/publish.yml “Render and Publish” step env:    QUARTO_PROFILE: latest",
-    "crumbs": [
-      "Guide"
-    ]
   }
 ]
