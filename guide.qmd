@@ -4,3 +4,8 @@ draft: true
 ---
 
 1. Add a `_quarto-latest.yml`
+1. Include in `.github/workflows/publish.yml` "Render and Publish" step
+    ```
+    env:
+      QUARTO_PROFILE: latest
+    ```

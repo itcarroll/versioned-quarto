@@ -13,10 +13,16 @@ jobs:
         uses: actions/checkout@v6
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
-      - name: Render and Publish
+      - name: Render Stable
+        uses: quarto-dev/quarto-actions/render@v2
+      - name: Render Latest
+        uses: quarto-dev/quarto-actions/render@v2
+        env:
+          QUARTO_PROFILE: latest
+      - name: Publish
         uses: quarto-dev/quarto-actions/publish@v2
         with:
           target: gh-pages
+          render: false
         env:
-          QUARTO_PROFILE: latest
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
