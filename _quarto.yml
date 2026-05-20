@@ -1,5 +1,6 @@
 project:
   type: website
+  output-dir: _site/en/stable
 website:
   title: "Versioned Quarto"
   site-url: https://itcarroll.github.io/versioned-quarto/en/stable

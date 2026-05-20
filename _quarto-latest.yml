@@ -1,3 +1,5 @@
+project:
+  output-dir: _site/en/latest
 website:
   site-url: https://itcarroll.github.io/versioned-quarto/en/latest
   draft-mode: visible
