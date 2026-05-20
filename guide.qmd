@@ -1,0 +1,6 @@
+---
+title: "Guide"
+draft: true
+---
+
+1. Add a `_quarto-latest.yml`
